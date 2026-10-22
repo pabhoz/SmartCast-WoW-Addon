@@ -18,9 +18,10 @@ local markers = {}
 local function Marker(button)
 	local m = markers[button]
 	if not m then
+		-- top-left: the top-right corner holds the keybinding text
 		m = button:CreateTexture(nil, "OVERLAY")
-		m:SetSize(6, 6)
-		m:SetPoint("TOPRIGHT", -3, -3)
+		m:SetSize(4, 4)
+		m:SetPoint("TOPLEFT", 3, -3)
 		markers[button] = m
 	end
 	return m
