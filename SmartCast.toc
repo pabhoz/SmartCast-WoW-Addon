@@ -1,0 +1,15 @@
+## Interface: 30300
+## Title: Smart Cast
+## Notes: Mouseover casting without macros: spells go to the unit under your mouse, right-click casts helpful spells on yourself. Pick which spells on your action bars.
+## Notes-esES: Lanzar sobre el mouse sin macros: los hechizos van a la unidad bajo el mouse y el clic derecho lanza los de ayuda sobre ti. Elige que hechizos de tus barras.
+## Notes-esMX: Lanzar sobre el mouse sin macros: los hechizos van a la unidad bajo el mouse y el clic derecho lanza los de ayuda sobre ti. Elige que hechizos de tus barras.
+## Author: pabhoz
+## Version: 1.0.0
+## X-License: GPL-3.0-or-later
+## X-Website: https://github.com/pabhoz/SmartCast-WoW-Addon
+## OptionalDeps: Bartender4, Stormrage
+## SavedVariables: SmartCastDB
+Locales.lua
+Core.lua
+Select.lua
+UI.lua
