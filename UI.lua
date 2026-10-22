@@ -80,7 +80,7 @@ end
 
 -- Called from Core.lua once the saved variables are loaded.
 function SmartCast.CreateLauncher()
-	local hub = Stormrage and Stormrage.Register and Stormrage.Register({
+	local hub = type(Stormrage) == "table" and Stormrage.Register and Stormrage.Register({
 		name = "Smart Cast",
 		icon = ICON,
 		description = L["Mouseover casting without macros"],
